@@ -15,6 +15,7 @@
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://chandana-jagath.github.io/process-string",
   "scripts": {
     "start": "react-scripts start",
     "predeploy" : "npm run build",
