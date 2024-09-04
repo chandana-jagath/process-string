@@ -23,12 +23,12 @@ function App() {
   return (
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12">
           <Form.Group className="mb-3" controlId="sentenceTextArea">
             <Form.Control
               as="textarea"
-              rows={7}
-              cols={6}
+              rows={12}
+              cols={12}
               placeholder="Enter your text here"
               value={text}
               onChange={handleTextChange}
@@ -37,24 +37,24 @@ function App() {
         </div>
       </div>
       <div class="row">
-        <div class="col-2">
+        <div class="col">
           <div class="btn btn-info disabled w-100">Characters <br/> {characterCount}</div>
         </div>
-        <div class="col-2">
+        <div class="col">
           <div class="btn btn-info disabled w-100">Letters <br/> {letterCount}</div>
         </div>
-        <div class="col-2">
+        <div class="col">
           <div class="btn btn-info disabled w-100">Words <br/> {wordCount}</div>
         </div>
       </div>
       <div class="row mt-2">
-        <div class="col-2">
+        <div class="col">
           <div class="btn btn-info disabled w-100">Sentences <br/> {sentenceCount}</div>
         </div>
-        <div class="col-2">
+        <div class="col">
           <div class="btn btn-info disabled w-100">Paragraphs <br/> {paragraphCount}</div>
         </div>
-        <div class="col-2">
+        <div class="col">
           <div class="btn btn-info disabled w-100">Spaces <br/> {spaceCount}</div>
         </div>
       </div>
